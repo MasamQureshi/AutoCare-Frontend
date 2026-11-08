@@ -1,0 +1,812 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #101B2D !important;
+    padding: 18px 0;
+}
+
+/* Logo */
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* Navigation Links */
+.navbar .nav-link {
+    color: #d1d5db !important;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+    /* Hover Effect */
+    .navbar .nav-link:hover {
+        color: #F59E0B !important;
+    }
+
+/* Sign Up Button */
+.navbar .btn-primary {
+    background-color: #F59E0B;
+    border: none;
+    color: #101B2D;
+    font-weight: bold;
+    padding: 9px 20px;
+}
+
+    .navbar .btn-primary:hover {
+        background-color: #D97706;
+        color: white;
+    }
+
+/* Hero Section */
+.hero-section {
+    background-color: #101B2D;
+    color: white;
+    padding: 90px 0;
+}
+
+    /* Hero Heading */
+    .hero-section h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+        .hero-section h1 span {
+            color: #F59E0B;
+        }
+
+    /* Hero Paragraph */
+    .hero-section p {
+        color: #d1d5db;
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+/* Hero Image */
+.hero-image {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+/* Services Section */
+.services-section {
+    padding: 90px 0;
+    background-color: #FFFFFF;
+}
+
+
+    /* Section Heading */
+    .services-section h2 {
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .services-section .text-center p {
+        color: #cbd5e1;
+        font-size: 16px;
+    }
+
+/* Service Cards */
+.service-card {
+    background: #1e293b;
+    border: none;
+    border-top: 4px solid #F59E0B;
+    border-radius: 15px;
+    padding: 25px 15px;
+    transition: all 0.3s ease;
+}
+
+    /* Card Hover Effect */
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 30px rgba(245, 158, 11, 0.18);
+        background: #26364d;
+    }
+
+/* Service Icons */
+.service-icon {
+    width: 75px;
+    height: 75px;
+    background: rgba(245, 158, 11, 0.12);
+    color: #F59E0B;
+    font-size: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 22px;
+}
+
+/* Card Heading */
+.service-card h4 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Card Description */
+.service-card p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+
+
+/* Services Section Text Colors */
+.services-section h1,
+.services-section h2,
+.services-section h3,
+.services-section h4,
+.services-section h5 {
+    color: #101B2D;
+}
+
+.services-section p {
+    color: #64748B;
+}
+
+
+
+/* About Section */
+.about-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #101B2D, #172B46);
+    color: white;
+}
+
+/* About Image */
+.about-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* About Heading */
+.about-section h2 {
+    color: #101B2D;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* About Paragraph */
+.about-section p {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* About Button */
+.about-section .btn {
+    background-color: #F59E0B;
+    border: none;
+    color: #101B2D;
+    font-weight: bold;
+    padding: 10px 22px;
+}
+
+
+/* About Section Text Colors */
+.about-section h1,
+.about-section h2,
+.about-section h3,
+.about-section h4,
+.about-section h5 {
+    color: #FFFFFF;
+}
+
+.about-section p {
+    color: #D1D5DB;
+}
+
+.about-section .text-muted {
+    color: #D1D5DB !important;
+}
+
+.about-section span {
+    color: #F59E0B;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #FFFFFF;
+    color: #101B2D;
+    padding: 65px 0 20px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-logo {
+    font-weight: 800;
+    color: #101B2D;
+    margin-bottom: 15px;
+}
+
+    .footer-logo span {
+        color: #F59E0B;
+    }
+
+.footer-description {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.footer-section h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #101B2D;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .footer-links li {
+        margin-bottom: 13px;
+        color: #64748b;
+        font-size: 14px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #64748b;
+        transition: 0.3s;
+    }
+
+        .footer-links a:hover {
+            color: #F59E0B;
+            padding-left: 5px;
+        }
+
+    .footer-links i {
+        color: #F59E0B;
+        margin-right: 8px;
+    }
+
+.footer-divider {
+    margin: 35px 0 20px;
+    border-color: #d1d5db;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .footer-bottom p {
+        color: #64748b;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .footer-bottom span {
+        color: #F59E0B;
+    }
+
+
+
+/* Login Page */
+.login-page {
+    background-color: #f1f5f9;
+}
+
+/* Left Side */
+.login-left {
+    background-color: #101B2D;
+    color: white;
+    padding: 40px 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-brand h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+    .login-brand h2 span {
+        color: #F59E0B;
+    }
+
+.login-brand p {
+    color: #d1d5db;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.login-left-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+    .login-left-content h1 {
+        font-size: 42px;
+        font-weight: bold;
+        color: #F59E0B;
+    }
+
+    .login-left-content h3 {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+
+    .login-left-content p {
+        color: #d1d5db;
+        line-height: 1.8;
+    }
+
+.login-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.login-left-footer {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+/* Right Side */
+.login-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 25px;
+}
+
+.login-form-box {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+    .login-form-box h2 {
+        color: #101B2D;
+        font-weight: bold;
+    }
+
+.login-subtitle {
+    color: #64748b;
+    margin-bottom: 35px;
+}
+
+.login-form-box .form-label {
+    color: #101B2D;
+    font-weight: 600;
+}
+
+.login-form-box .form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.login-btn {
+    background-color: #F59E0B;
+    color: #101B2D;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+}
+
+    .login-btn:hover {
+        background-color: #D97706;
+        color: white;
+    }
+
+.signup-text {
+    text-align: center;
+    margin-top: 25px;
+    color: #64748b;
+}
+
+    .signup-text a,
+    .home-link {
+        color: #D97706;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* Signup Page */
+.signup-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #101B2D, #1e3a5f);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Brand Header */
+.signup-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .signup-header a {
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .signup-header a span {
+            color: #F59E0B;
+        }
+
+    .signup-header p {
+        color: #cbd5e1;
+        font-size: 11px;
+        letter-spacing: 3px;
+        margin-top: 5px;
+    }
+
+/* Signup Card */
+.signup-card {
+    background-color: white;
+    width: 100%;
+    max-width: 560px;
+    padding: 28px 35px;
+    border-radius: 18px;
+    border-top: 6px solid #F59E0B;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.signup-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .signup-heading h2 {
+        color: #101B2D;
+        font-weight: bold;
+        margin-top: 6px;
+        font-size: 25px;
+    }
+
+.signup-icon {
+    font-size: 35px;
+}
+
+.signup-heading h2 {
+    color: #101B2D;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.signup-heading p {
+    color: #64748b;
+}
+
+/* Form */
+.signup-card .form-label {
+    color: #101B2D;
+    font-weight: 600;
+}
+
+.signup-card .form-control {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+    .signup-card .form-control:focus {
+        border-color: #F59E0B;
+        box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+    }
+
+/* Signup Button */
+.signup-btn {
+    background-color: #F59E0B;
+    color: #101B2D;
+    font-weight: bold;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+}
+
+    .signup-btn:hover {
+        background-color: #D97706;
+        color: white;
+    }
+
+/* Bottom Links */
+.signup-bottom {
+    text-align: center;
+    margin-top: 25px;
+}
+
+    .signup-bottom p {
+        color: #64748b;
+    }
+
+    .signup-bottom a {
+        color: #D97706;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.signup-home {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.signup-copyright {
+    color: #cbd5e1;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+/* Mobile Layout */
+@media (max-width: 576px) {
+    .signup-card {
+        padding: 30px 22px;
+    }
+
+    .signup-heading h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+/* Admin Dashboard */
+.dashboard-wrapper {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #101B2D;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+    .sidebar h2 {
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+        .sidebar h2 span {
+            color: #F59E0B;
+        }
+
+.sidebar-label {
+    color: #94a3b8;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.sidebar-link {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 13px 15px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+    .sidebar-link:hover,
+    .sidebar-link.active {
+        background-color: #F59E0B;
+        color: #101B2D;
+        font-weight: bold;
+    }
+
+.sidebar-bottom {
+    margin-top: auto;
+}
+
+/* Main Area */
+.dashboard-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Top Bar */
+.dashboard-topbar {
+    background-color: white;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+    .dashboard-topbar h4 {
+        color: #101B2D;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .dashboard-topbar p {
+        color: #64748b;
+        margin: 5px 0 0;
+    }
+
+.admin-profile {
+    color: #101B2D;
+}
+
+    .admin-profile span {
+        margin-right: 8px;
+    }
+
+/* Dashboard Content */
+.dashboard-content {
+    padding: 35px;
+}
+
+    .dashboard-content h3 {
+        color: #101B2D;
+        font-weight: bold;
+    }
+
+.dashboard-description {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* Statistics Cards */
+.stat-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #F59E0B;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.stat-icon {
+    font-size: 30px;
+}
+
+.stat-card p {
+    color: #64748b;
+    margin: 15px 0 5px;
+}
+
+.stat-card h2 {
+    color: #101B2D;
+    font-weight: bold;
+}
+
+/* Section Titles */
+.section-title {
+    color: #101B2D;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Quick Actions */
+.quick-action {
+    display: block;
+    background-color: #101B2D;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .quick-action:hover {
+        background-color: #F59E0B;
+        color: #101B2D;
+    }
+
+/* Services Table */
+.dashboard-table {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+    .dashboard-table thead {
+        background-color: #101B2D;
+        color: white;
+    }
+
+    .dashboard-table th {
+        background-color: #101B2D;
+        color: white;
+        padding: 15px;
+    }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 190px;
+        padding: 20px 12px;
+    }
+
+    .dashboard-topbar {
+        padding: 20px;
+    }
+
+    .dashboard-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .sidebar-bottom {
+        margin-top: 10px;
+    }
+}
+
+
+
+/* Service Card Heading Color */
+.services-section .card h3,
+.services-section .card h4,
+.services-section .card h5 {
+    color: #F59E0B;
+}
+
+
+
+
+/* Only Services Intro Description */
+.services-section .text-center.mb-5 p {
+    color: #101B2D !important;
+}
+
+
+
+
+
